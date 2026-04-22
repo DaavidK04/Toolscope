@@ -1,0 +1,33 @@
+{
+  "name": "toolscope",
+  "version": "1.0.0",
+  "description": "A web app to explore and test MCP servers",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaavidK04/Toolscope.git"
+  },
+  "keywords": ["mcp", "model-context-protocol", "developer-tools"],
+  "author": "DaavidK04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DaavidK04/Toolscope/issues"
+  },
+  "homepage": "https://github.com/DaavidK04/Toolscope#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
